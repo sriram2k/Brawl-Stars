@@ -1,0 +1,23 @@
+<html>
+<head>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$("#image").mouseover(function(){
+		$("#pop-up").show();
+		});
+		$("#image").mouseout(function(){
+		$("#pop-up").hide();
+		});
+		});
+	</script>
+</head>
+<body>
+<div>
+<span id="pop-up" style="position: absolute; display:none;">
+	<img src="image1.jpg"/></span>
+<div id="image" style="width:208px; height:318px; margin-left: 150px;"><a href="#"><img
+src="image2.jpg"
+border="none" /></a></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+body{
+	background: url("loginbg.jpg") no-repeat center center fixed;
+	background-size:cover;
+}
+.login{
+	width:auto;
+	height:auto;
+    background: transparent;
+	color:#fff;
+	top:50%;
+	left:50%;
+	box-sizing: border-box;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	border:1px solid #fff;
+	border-radius: 10px;
+
+}
+input{
+	margin:15px;
+	border:1px solid black;
+	outline: hidden;
+	border-radius: 10px;
+	height: 40px;
+	width:200px;
+	padding-left: 5px;
+}
+input[type="submit"]{
+	width:100px;
+	background-color:lightgreen;
+}
+
+input[type="reset"]{
+	width:100px;
+	background-color: Tomato;
+	margin-left:0px;
+}
+.disp{
+	font-size: 25px;
+	padding-left: 5px;
+}

@@ -1,0 +1,33 @@
+b{
+  color:Tomato;
+  font-size:35px;
+}
+
+body{
+  background-image: url("brawlbg.jpg") no-repeat center center fixed ;
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+
+}
+.b{
+  color: blue;
+  font-size: 25px;
+}
+.health{
+  color:green;
+}
+.num{
+  color:blue;
+}
+.value{
+  padding-left: 20px;
+}
+.ack{
+  color:red;
+}
+.sup{
+  color:blue;
+}
+.c{
+    text-align:left;
+}
